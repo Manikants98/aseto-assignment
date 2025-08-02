@@ -1,4 +1,4 @@
-# Flutter Android Setup and Run Guide
+# Aseto Assignment - Flutter Android Setup and Run Guide
 
 ## Prerequisites
 
@@ -42,3 +42,24 @@
 - Profile Build: `flutter run --profile`
 
 ## Project Structure
+
+```
+lib/
+├── main.dart
+└── src/
+    ├── common/
+    │   ├── colors.dart
+    │   ├── custom_textfield.dart
+    │   └── toast.dart
+    └── screens/
+        └── create_account.dart
+```
+
+## Next Steps
+
+1. Verify your Flutter installation: `flutter doctor`
+2. Connect your Android device or start an emulator
+3. Navigate to the project directory
+4. Run `flutter run` to launch your app
+
+For more detailed information, visit the [official Flutter documentation](https://docs.flutter.dev/get-started/test-drive).
